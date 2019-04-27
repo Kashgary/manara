@@ -6,9 +6,8 @@ const bodyParser = require('body-parser');
 
 //routes
 const testRoute = require('./api/routes/test');
+const nameRoute = require('./api/routes/name');
 
-
-app.use('/test', testRoute);
 
 //logs and allow json body 
 app.use(morgan('dev'));
@@ -25,6 +24,9 @@ app.use((req, res, next)=>{
     }
     next();
 });
+
+app.use('/test', testRoute);
+app.use('/name', nameRoute);
 
 
 app.use((req, res, next) => {
