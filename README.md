@@ -10,3 +10,8 @@
 	2- I have done taks 3.1.1. in this task I have used this stakoverflow post to help me doing the sort 
 	https://stackoverflow.com/questions/46127055/node-js-sort-json-objects-by-a-value
 	I modified the sulotion to fit my need.
+
+	3- I think I have done enough for today becouse I have beed watching the tutorial since the morning.
+
+## 28/4/2019
+	
