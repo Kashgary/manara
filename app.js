@@ -3,6 +3,7 @@ const express = require('express')
 const app = express();
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
+global.count = 0;
 
 
 //routes
@@ -10,6 +11,7 @@ const testRoute = require('./api/routes/test');
 const nameRoute = require('./api/routes/name');
 const weatherRoute = require('./api/routes/weather');
 const cryptRoute = require('./api/routes/crypt');
+const countRoute = require('./api/routes/count');
 
 
 //logs and allow json body 
@@ -17,7 +19,6 @@ const cryptRoute = require('./api/routes/crypt');
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
-
 
 
 //handling CORS error
@@ -37,6 +38,7 @@ app.use('/test', testRoute);
 app.use('/name', nameRoute);
 app.use('/weather', weatherRoute);
 app.use('/crypt', cryptRoute);
+app.use('/count', countRoute);
 
 
 
