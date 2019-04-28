@@ -5,15 +5,13 @@ const accuweather = require('node-accuweather')()('1WxNucE1QpzqvuqYAU3PjXzRvebxq
 router.post('/:city', (req, res, next) => {
 
     const city = req.params.city;
-
+    global.count++;
     accuweather.getCurrentConditions(city, { unit: "Celsius" }).then(function (result) {
         res.status(200).json({
             city: city,
             weather: result
         })
-
     });
-
 });
 
 module.exports = router;
