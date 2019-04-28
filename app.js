@@ -7,14 +7,19 @@ const bodyParser = require('body-parser');
 //routes
 const testRoute = require('./api/routes/test');
 const nameRoute = require('./api/routes/name');
+const weatherRoute = require('./api/routes/weather');
 
 
 //logs and allow json body 
+
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
+
+
 //handling CORS error
+
 app.use((req, res, next)=>{
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Headres', '*');
@@ -25,8 +30,10 @@ app.use((req, res, next)=>{
     next();
 });
 
+
 app.use('/test', testRoute);
 app.use('/name', nameRoute);
+app.use('/weather', weatherRoute);
 
 
 app.use((req, res, next) => {
