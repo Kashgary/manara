@@ -4,10 +4,12 @@ const app = express();
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 
+
 //routes
 const testRoute = require('./api/routes/test');
 const nameRoute = require('./api/routes/name');
 const weatherRoute = require('./api/routes/weather');
+const cryptRoute = require('./api/routes/crypt');
 
 
 //logs and allow json body 
@@ -30,10 +32,12 @@ app.use((req, res, next)=>{
     next();
 });
 
-
+//using the routes
 app.use('/test', testRoute);
 app.use('/name', nameRoute);
 app.use('/weather', weatherRoute);
+app.use('/crypt', cryptRoute);
+
 
 
 app.use((req, res, next) => {

@@ -19,6 +19,7 @@
   "homepage": "https://gitlab.com/Kashgary/manara-assigment#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "cryptr": "^4.0.2",
     "express": "^4.16.4",
     "morgan": "^1.9.1",
     "node-accuweather": "^1.7.0",
