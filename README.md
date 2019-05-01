@@ -26,3 +26,8 @@
 	4-I have done enough for today, tomorrow I will start tutorials for react.js.
 
 ## 29/4/2019
+## 30/4/2019
+## 1/5/2019 
+	for the past 2 days I was searching for a good tutorial in React.js and Matrial-UI and finaly found one 
+	https://www.youtube.com/watch?v=xm4LX5fJKZ8&list=PLcCp4mjO-z98WAu4sd0eVha1g-NMfzHZk&index=1
+	I will take few days until I can start doing the remaining tasks confidently.
