@@ -1,9 +1,14 @@
 
 const express = require('express')
+const path = require('path')
 const app = express();
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
+
 global.count = 0;
+
+// Serve the static files from the React app
+app.use(express.static(path.join(__dirname, 'client/build')));
 
 
 //routes
