@@ -31,3 +31,7 @@
 	for the past 2 days I was searching for a good tutorial in React.js and Matrial-UI and finaly found one 
 	https://www.youtube.com/watch?v=xm4LX5fJKZ8&list=PLcCp4mjO-z98WAu4sd0eVha1g-NMfzHZk&index=1
 	I will take few days until I can start doing the remaining tasks confidently.
+## 2/5/2019 
+	today I made basic ui for the homepage using react and matarial ui 
+	tomorow inshallah I will start doing task 3.2.1
+## 3/5/2019
