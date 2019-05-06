@@ -33,6 +33,15 @@
 	I will take few days until I can start doing the remaining tasks confidently.
 ## 2/5/2019 
 	1-today I made basic ui for the homepage using react and matarial ui , this article gave me good understanding on how react work with express
-	and luckly it explains how to deploy on Heroku 
+	and luckly it explains how to deploy on Heroku  https://dev.to/nburgess/creating-a-react-app-with-react-router-and-an-express-backend-33l3
 	2-tomorow inshallah I will start doing task 3.2.1
 ## 3/5/2019
+## 4/5/2019
+## 5/5/2019
+## 6/5/2019
+	1- for the past few days I was trying to understand react more so I can shape simple desgin in my head and depend less on copy-past and redesign from tutorials and depend more on documents for matrial ui and react.
+	2- I used skeleton design from matrial ui documents for tabs.
+	3- I understood now how to manipulate states.
+	4- task  3.2.1 is done.
+	5- inshallah the next few days I will finish the remaning traks
+	6- Rmadan Karem 
