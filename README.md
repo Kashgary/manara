@@ -45,3 +45,6 @@
 	4- task  3.2.1 is done.
 	5- inshallah the next few days I will finish the remaning traks
 	6- Rmadan Karem 
+## 7/5/2019 
+	1- today I did the weather page, I had problem the api for weather somehow was not working, took me a while to figure the issue it turned out 
+	accuWeather api has limted usage. but now it works fine after I made another key but still limtied usage. 

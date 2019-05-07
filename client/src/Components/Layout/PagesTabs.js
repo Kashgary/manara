@@ -28,6 +28,7 @@ import NoSsr from '@material-ui/core/NoSsr';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Message from "./Pages/Message/Message";
+import Wheather from './Pages/Weather/Weather';
 
 function TabContainer(props) {
   return (
@@ -77,13 +78,13 @@ class NavTabs extends React.Component {
             textColor="primary"
             centered>
               <LinkTab label="Message" href="page1" />
-              <LinkTab label="Weather" href="page2" />
+              <LinkTab label="Weather" href="weather" />
               <LinkTab label="Animation" href="page3" />
               <LinkTab label="Web Technologies" href="page3" />
             </Tabs>
           </AppBar>
           {value === 0 && <TabContainer><Message/></TabContainer>}
-          {value === 1 && <TabContainer>Page Two</TabContainer>}
+          {value === 1 && <TabContainer><Wheather/></TabContainer>}
           {value === 2 && <TabContainer>Page Three</TabContainer>}
           {value === 3 && <TabContainer>Page Three</TabContainer>}
         </div>
