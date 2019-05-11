@@ -31,10 +31,12 @@
 	for the past 2 days I was searching for a good tutorial in React.js and Matrial-UI and finaly found one 
 	https://www.youtube.com/watch?v=xm4LX5fJKZ8&list=PLcCp4mjO-z98WAu4sd0eVha1g-NMfzHZk&index=1
 	I will take few days until I can start doing the remaining tasks confidently.
+
 ## 2/5/2019 
 	1-today I made basic ui for the homepage using react and matarial ui , this article gave me good understanding on how react work with express
 	and luckly it explains how to deploy on Heroku  https://dev.to/nburgess/creating-a-react-app-with-react-router-and-an-express-backend-33l3
 	2-tomorow inshallah I will start doing task 3.2.1
+
 ## 3/5/2019
 ## 4/5/2019
 ## 5/5/2019
@@ -45,6 +47,17 @@
 	4- task  3.2.1 is done.
 	5- inshallah the next few days I will finish the remaning traks
 	6- Rmadan Karem 
+
 ## 7/5/2019 
 	1- today I did the weather page, I had problem the api for weather somehow was not working, took me a while to figure the issue it turned out 
 	accuWeather api has limted usage. but now it works fine after I made another key but still limtied usage. 
+
+## 8/5/2019
+## 9/5/2019
+## 10/5/2019
+## 11/5/2019
+	1- I made simple css animation with infinit itration, I used W3 school and animista (http://animista.net/play/basic) for refrences.
+	2- I used some of the animation on react compnents.
+	3- I finshed all tasks under  3.2
+
+## 12/5/2019

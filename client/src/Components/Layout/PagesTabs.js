@@ -1,24 +1,3 @@
-// import React from 'react';
-// import Paper from '@material-ui/core/Paper';
-// import Tabs from '@material-ui/core/Tabs';
-// import Tab from '@material-ui/core/Tab';
-
-// export default probs => {
-
-//     return <Paper>
-//         <Tabs
-//             value={0}
-//             indicatorColor="primary"
-//             textColor="primary"
-//             centered>
-//             <Tab label="Message" /> />
-//             <Tab label="Weather" /> />
-//             <Tab label="Animation" /> />
-//             <Tab label="Web Technologies" /> />
-//         </Tabs>
-//     </Paper>
-// }
-
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
@@ -29,6 +8,7 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Message from "./Pages/Message/Message";
 import Wheather from './Pages/Weather/Weather';
+import Animation from './Pages/Animation/Animation'
 
 function TabContainer(props) {
   return (
@@ -85,7 +65,7 @@ class NavTabs extends React.Component {
           </AppBar>
           {value === 0 && <TabContainer><Message/></TabContainer>}
           {value === 1 && <TabContainer><Wheather/></TabContainer>}
-          {value === 2 && <TabContainer>Page Three</TabContainer>}
+          {value === 2 && <TabContainer><Animation/></TabContainer>}
           {value === 3 && <TabContainer>Page Three</TabContainer>}
         </div>
       </NoSsr>
