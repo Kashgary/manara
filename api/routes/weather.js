@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const accuweather = require('node-accuweather')()('jnhiPmfXd3Xmx0h7HD0fGPOF8AqT7Ozz');
+const accuweather = require('node-accuweather')()('Y2049OcMZ2Dj3D6Ys4sFNAO6KU92nnA2');
 
 router.post('/:city', (req, res, next) => {
 
