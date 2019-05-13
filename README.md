@@ -61,3 +61,7 @@
 	3- I finshed all tasks under  3.2
 
 ## 12/5/2019
+## 13/5/2019
+	1- I made the reaserch page. it is very very basic.
+	2- as for the reaserch, my pick was based on my everyday experiances 
+	3- All I did is qoute and mentioned the refrences at the bottom.

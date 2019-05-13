@@ -8,7 +8,8 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Message from "./Pages/Message/Message";
 import Wheather from './Pages/Weather/Weather';
-import Animation from './Pages/Animation/Animation'
+import Animation from './Pages/Animation/Animation';
+import WebTech from './Pages/WebTech/WebTech'
 
 function TabContainer(props) {
   return (
@@ -66,7 +67,7 @@ class NavTabs extends React.Component {
           {value === 0 && <TabContainer><Message/></TabContainer>}
           {value === 1 && <TabContainer><Wheather/></TabContainer>}
           {value === 2 && <TabContainer><Animation/></TabContainer>}
-          {value === 3 && <TabContainer>Page Three</TabContainer>}
+          {value === 3 && <TabContainer><WebTech/></TabContainer>}
         </div>
       </NoSsr>
     );
